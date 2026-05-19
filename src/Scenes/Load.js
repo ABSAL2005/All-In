@@ -7,11 +7,10 @@ class Load extends Phaser.Scene {
         this.load.setPath("./assets/");
 
         // Load characters spritesheet
-        this.load.image("player_right", "Player/right_player.png");
-        this.load.image("right_walk2", "Player/right_walk2.png");
-        this.load.image("jump_player", "Player/jump_player.png");
-        this.load.image("crouch_player", "Player/crouch_player.png");
-        
+        this.load.image("player_right", "player/right_player.png");
+        this.load.image("right_walk2", "player/right_walk2.png");
+        this.load.image("jump_player", "player/jump_player.png");
+        this.load.image("crouch_player", "player/crouch_player.png");
 
         // Load tilemap information
         this.load.image("tilemap_packed", "kenney_1-bit-platformer-pack/Tilemap/monochrome_tilemap_packed.png");   // Packed tilemap
