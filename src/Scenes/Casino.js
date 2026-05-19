@@ -116,7 +116,7 @@ class Casino extends Phaser.Scene {
         this.time.delayedCall(1400, () => {
 
             let jackpot =
-                Phaser.Math.Between(1, 6) === 1;
+                Phaser.Math.Between(1, 3) === 1;
 
             if (jackpot) {
 
